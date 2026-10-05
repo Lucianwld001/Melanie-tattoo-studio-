@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melanie Tattoo Studio</title>
+    <meta
+      name="description"
+      content="Melanie Tattoo Studio offers custom tattoo artistry, fine line work, blackwork, and appointment booking."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrapper">
+        <div class="logo">
+          <span class="logo-mark">M</span>
+          <div>
+            <h1>Melanie</h1>
+            <p>Tattoo Studio</p>
+          </div>
+        </div>
+
+        <nav class="main-nav" id="main-nav">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#booking">Booking</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Custom Tattoo Artistry</p>
+            <h2>Ink with intention. Wear your story.</h2>
+            <p class="hero-copy">
+              Melanie Tattoo Studio creates bold, meaningful tattoos tailored to
+              your vision — from fine line details to statement pieces.
+            </p>
+            <div class="hero-actions">
+              <a href="#booking" class="btn btn-primary">Book an Appointment</a>
+              <a href="#services" class="btn btn-secondary">Explore Services</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="card-image"></div>
+            <div class="card-details">
+              <p>Open for bookings</p>
+              <h3>Custom designs • Fine line • Blackwork</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Crafted for you</p>
+            <h2>Your art, your story, your comfort</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature">
+              <span>01</span>
+              <h3>Consultation</h3>
+              <p>
+                We discuss your vision, placement, and style to create a design that
+                feels personal and refined.
+              </p>
+            </article>
+
+            <article class="feature">
+              <span>02</span>
+              <h3>Custom Design</h3>
+              <p>
+                Every tattoo is designed to suit your individuality, preferences,
+                and the story behind the piece.
+              </p>
+            </article>
+
+            <article class="feature">
+              <span>03</span>
+              <h3>Comfort First</h3>
+              <p>
+                A clean, professional experience designed to make every appointment
+                feel relaxed and welcoming.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Services</p>
+            <h2>Tailored tattoo experiences</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="service-icon">✦</div>
+              <h3>Fine Line Tattoos</h3>
+              <p>
+                Delicate, elegant artwork with precision detail and clean
+                linework.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">✦</div>
+              <h3>Blackwork</h3>
+              <p>
+                Bold contrast and graphic compositions designed with impact and
+                style.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">✦</div>
+              <h3>Custom Symbolism</h3>
+              <p>
+                Personal pieces that reflect your story, values, and meaningful
+                memories.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">✦</div>
+              <h3>Cover-Ups</h3>
+              <p>
+                Thoughtful redesigns that transform old or unwanted art into
+                something better suited to you.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">✦</div>
+              <h3>Minimalist Designs</h3>
+              <p>
+                Clean, subtle, and timeless artwork for a refined and modern finish.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">✦</div>
+              <h3>Aftercare Guidance</h3>
+              <p>
+                Helpful instructions and support to keep your new tattoo healing
+                properly and beautifully.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section booking" id="booking">
+        <div class="container booking-layout">
+          <div class="booking-copy">
+            <p class="eyebrow">Booking</p>
+            <h2>Reserve your appointment</h2>
+            <p>
+              Tell us about your idea and preferred date. We’ll review your request
+              and confirm availability.
+            </p>
+
+            <div class="booking-info">
+              <div>
+                <strong>Availability</strong>
+                <span>Tue–Sat</span>
+              </div>
+              <div>
+                <strong>Consultation</strong>
+                <span>By request</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="booking-form" id="booking-form">
+            <label>
+              Full Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" placeholder="your@email.com" required />
+            </label>
+
+            <label>
+              Phone
+              <input type="tel" name="phone" placeholder="(555) 123-4567" />
+            </label>
+
+            <label>
+              Preferred Service
+              <select name="service" required>
+                <option value="">Select a service</option>
+                <option>Fine Line Tattoos</option>
+                <option>Blackwork</option>
+                <option>Custom Symbolism</option>
+                <option>Cover-Ups</option>
+                <option>Minimalist Designs</option>
+                <option>Consultation</option>
+              </select>
+            </label>
+
+            <label>
+              Preferred Date
+              <input type="date" name="date" required />
+            </label>
+
+            <label>
+              Preferred Time
+              <select name="time" required>
+                <option value="">Select a time</option>
+                <option>10:00 AM</option>
+                <option>11:30 AM</option>
+                <option>1:00 PM</option>
+                <option>3:30 PM</option>
+                <option>5:00 PM</option>
+              </select>
+            </label>
+
+            <label>
+              Project Details
+              <textarea
+                name="details"
+                rows="4"
+                placeholder="Tell us about your design idea, placement, and inspiration."
+                required
+              ></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Booking Request
+            </button>
+
+            <p id="form-message" class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo footer-logo">
+            <span class="logo-mark">M</span>
+            <div>
+              <h1>Melanie</h1>
+              <p>Tattoo Studio</p>
+            </div>
+          </div>
+          <p class="footer-text">
+            Custom tattoo artistry designed for personal expression and lasting
+            impact.
+          </p>
+        </div>
+
+        <div>
+          <h3>Visit</h3>
+          <p>125 Ink Avenue</p>
+          <p>Downtown Studio</p>
+          <p>Open Tue–Sat</p>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <p>(555) 234-7788</p>
+          <p>hello@melanietattoostudio.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
