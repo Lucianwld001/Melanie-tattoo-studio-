@@ -29,14 +29,14 @@
 
         <nav class="main-nav" id="main-nav">
           <a href="#home">Home</a>
+          <a href="#gallery">Gallery</a>
           <a href="#services">Services</a>
+          <a href="#testimonials">Testimonials</a>
           <a href="#booking">Booking</a>
           <a href="#contact">Contact</a>
         </nav>
 
-        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
-          ☰
-        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
       </div>
     </header>
 
@@ -52,7 +52,7 @@
             </p>
             <div class="hero-actions">
               <a href="#booking" class="btn btn-primary">Book an Appointment</a>
-              <a href="#services" class="btn btn-secondary">Explore Services</a>
+              <a href="#gallery" class="btn btn-secondary">View Gallery</a>
             </div>
           </div>
 
@@ -103,6 +103,25 @@
         </div>
       </section>
 
+      <section class="section gallery" id="gallery">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Gallery</p>
+            <h2>Explore our portfolio</h2>
+          </div>
+
+          <div class="gallery-filters">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="fine-line">Fine Line</button>
+            <button class="filter-btn" type="button" data-filter="blackwork">Blackwork</button>
+            <button class="filter-btn" type="button" data-filter="symbolic">Symbolic</button>
+            <button class="filter-btn" type="button" data-filter="minimalist">Minimalist</button>
+          </div>
+
+          <div class="gallery-grid" id="gallery-grid"></div>
+        </div>
+      </section>
+
       <section class="section services" id="services">
         <div class="container">
           <div class="section-heading">
@@ -114,55 +133,134 @@
             <article class="service-card">
               <div class="service-icon">✦</div>
               <h3>Fine Line Tattoos</h3>
-              <p>
-                Delicate, elegant artwork with precision detail and clean
-                linework.
-              </p>
+              <p>Delicate, elegant artwork with precision detail and clean linework.</p>
             </article>
 
             <article class="service-card">
               <div class="service-icon">✦</div>
               <h3>Blackwork</h3>
-              <p>
-                Bold contrast and graphic compositions designed with impact and
-                style.
-              </p>
+              <p>Bold contrast and graphic compositions designed with impact and style.</p>
             </article>
 
             <article class="service-card">
               <div class="service-icon">✦</div>
               <h3>Custom Symbolism</h3>
-              <p>
-                Personal pieces that reflect your story, values, and meaningful
-                memories.
-              </p>
+              <p>Personal pieces that reflect your story, values, and meaningful memories.</p>
             </article>
 
             <article class="service-card">
               <div class="service-icon">✦</div>
               <h3>Cover-Ups</h3>
-              <p>
-                Thoughtful redesigns that transform old or unwanted art into
-                something better suited to you.
-              </p>
+              <p>Thoughtful redesigns that transform old art into something truly yours.</p>
             </article>
 
             <article class="service-card">
               <div class="service-icon">✦</div>
               <h3>Minimalist Designs</h3>
-              <p>
-                Clean, subtle, and timeless artwork for a refined and modern finish.
-              </p>
+              <p>Clean, subtle, and timeless artwork for a refined finish.</p>
             </article>
 
             <article class="service-card">
               <div class="service-icon">✦</div>
               <h3>Aftercare Guidance</h3>
-              <p>
-                Helpful instructions and support to keep your new tattoo healing
-                properly and beautifully.
-              </p>
+              <p>Helpful instructions and support to keep your new tattoo healing beautifully.</p>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials" id="testimonials">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Testimonials</p>
+            <h2>Stories from our clients</h2>
+          </div>
+
+          <div class="testimonials-grid">
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="testimonial-avatar">JA</div>
+                <div>
+                  <h3>Jessica Anderson</h3>
+                  <p>Fine Line Butterfly</p>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                “Melanie understood my vision perfectly. The attention to detail on my butterfly tattoo is incredible.”
+              </p>
+              <div class="stars">★★★★★</div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="testimonial-avatar">MR</div>
+                <div>
+                  <h3>Marcus Rodriguez</h3>
+                  <p>Blackwork Geometric</p>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                “Professional, clean studio, and Melanie's artistic skill is unmatched. My geometric piece looks exactly as we sketched it.”
+              </p>
+              <div class="stars">★★★★★</div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="testimonial-avatar">SC</div>
+                <div>
+                  <h3>Sofia Chen</h3>
+                  <p>Symbolic Rose</p>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                “I was nervous about my first tattoo, but Melanie made me feel comfortable. The rose symbolizes my grandmother — it's perfect.”
+              </p>
+              <div class="stars">★★★★★</div>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="testimonial-avatar">KL</div>
+                <div>
+                  <h3>Kevin Liu</h3>
+                  <p>Cover-Up Redesign</p>
+                </div>
+              </div>
+              <p class="testimonial-text">
+                “My old tattoo became something beautiful. Melanie transformed my regret into something I'm proud to wear.”
+              </p>
+              <div class="stars">★★★★★</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section before-after" id="before-after">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Before & After</p>
+            <h2>Transformations</h2>
+          </div>
+
+          <div class="before-after-grid">
+            <div class="before-after-item">
+              <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=800&q=80" alt="Before tattoo work" />
+              <p>Before</p>
+            </div>
+            <div class="before-after-item">
+              <img src="https://images.unsplash.com/photo-1552521881-721bd1198e84?auto=format&fit=crop&w=800&q=80" alt="After tattoo work" />
+              <p>After</p>
+            </div>
+
+            <div class="before-after-item">
+              <img src="https://images.unsplash.com/photo-1522288627124-c3ee11f4ff5d?auto=format&fit=crop&w=800&q=80" alt="Before redesign" />
+              <p>Before</p>
+            </div>
+            <div class="before-after-item">
+              <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80" alt="After redesign" />
+              <p>After</p>
+            </div>
           </div>
         </div>
       </section>
@@ -173,8 +271,7 @@
             <p class="eyebrow">Booking</p>
             <h2>Reserve your appointment</h2>
             <p>
-              Tell us about your idea and preferred date. We’ll review your request
-              and confirm availability.
+              Tell us about your idea and preferred date. We'll review your request and confirm availability via email.
             </p>
 
             <div class="booking-info">
@@ -183,20 +280,24 @@
                 <span>Tue–Sat</span>
               </div>
               <div>
-                <strong>Consultation</strong>
-                <span>By request</span>
+                <strong>Response Time</strong>
+                <span>Within 24 hours</span>
               </div>
             </div>
           </div>
 
-          <form class="booking-form" id="booking-form">
+          <form class="booking-form" id="booking-form" action="https://formsubmit.co/hello@melanietattoostudio.com" method="POST">
+            <input type="hidden" name="_subject" value="New booking request from Melanie Tattoo Studio website" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+
             <label>
-              Full Name
+              Full Name *
               <input type="text" name="name" placeholder="Your name" required />
             </label>
 
             <label>
-              Email
+              Email *
               <input type="email" name="email" placeholder="your@email.com" required />
             </label>
 
@@ -206,7 +307,7 @@
             </label>
 
             <label>
-              Preferred Service
+              Preferred Service *
               <select name="service" required>
                 <option value="">Select a service</option>
                 <option>Fine Line Tattoos</option>
@@ -219,12 +320,12 @@
             </label>
 
             <label>
-              Preferred Date
+              Preferred Date *
               <input type="date" name="date" required />
             </label>
 
             <label>
-              Preferred Time
+              Preferred Time *
               <select name="time" required>
                 <option value="">Select a time</option>
                 <option>10:00 AM</option>
@@ -236,19 +337,16 @@
             </label>
 
             <label>
-              Project Details
+              Design Details *
               <textarea
                 name="details"
                 rows="4"
-                placeholder="Tell us about your design idea, placement, and inspiration."
+                placeholder="Tell us about your design idea, placement, size, and inspiration."
                 required
               ></textarea>
             </label>
 
-            <button type="submit" class="btn btn-primary btn-full">
-              Send Booking Request
-            </button>
-
+            <button type="submit" class="btn btn-primary btn-full">Send Booking Request</button>
             <p id="form-message" class="form-message" aria-live="polite"></p>
           </form>
         </div>
@@ -266,8 +364,7 @@
             </div>
           </div>
           <p class="footer-text">
-            Custom tattoo artistry designed for personal expression and lasting
-            impact.
+            Custom tattoo artistry designed for personal expression and lasting impact.
           </p>
         </div>
 
@@ -282,7 +379,11 @@
           <h3>Contact</h3>
           <p>(555) 234-7788</p>
           <p>hello@melanietattoostudio.com</p>
+          <p class="footer-text">Bookings confirmed via email</p>
         </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2024 Melanie Tattoo Studio. All rights reserved.</p>
       </div>
     </footer>
 
